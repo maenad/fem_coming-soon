@@ -1,6 +1,111 @@
+/** VARIABLES **/
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap");
+/*****************/
+body {
+  font-size: 16px;
+  font-family: "Josefin Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.general-container {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.logo {
+  padding-top: 4em;
+  padding-left: 10em;
+  position: absolute;
+}
+
+.left {
+  width: 60%;
+  margin-left: 10%;
+}
+
+.left h1 {
+  font-size: 5em;
+  text-transform: uppercase;
+  width: 40%;
+  font-weight: 300;
+  letter-spacing: 20px;
+  color: #ce9797;
+  margin-bottom: 1%;
+}
+
+.left h1 span {
+  font-weight: 600;
+  color: black;
+}
+
+.left p {
+  margin-right: 30%;
+  letter-spacing: 2px;
+  font-weight: 400;
+  width: 30vw;
+  line-height: 25px;
+  color: #ce9797;
+}
+
+.left .form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 60%;
+}
+
+.left .form-input {
+  width: 25vw;
+  height: 3em;
+  border: 1px solid #ce9797;
+  border-radius: 40px;
+}
+
+.left .button {
+  background-color: #ce9797;
+  width: 100px;
+  height: 50px;
+  border: #ce9797;
+  border-radius: 40px;
+  margin-left: -40px;
+}
+
+.right {
+  width: 40%;
+  background-color: silver;
+  background-image: url("/images/3.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
+  background-color: slateblue;
 }
 
 .attribution a {
