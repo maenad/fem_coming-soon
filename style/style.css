@@ -113,8 +113,111 @@
 
 /* DESKTOP*/
 @media (min-width: 900px) {
-  body {
-    background-color: #f96262;
+  * {
+    font-family: "Josefin Sans";
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  .general-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .logo {
+    margin: 3em 10em;
+    display: block;
+    position: absolute;
+  }
+  .logo img {
+    width: 100%;
+  }
+  .right {
+    background-color: silver;
+    background-image: url("/images/hero-desktop.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 50vw;
+    background-size: cover;
+  }
+  .left {
+    width: 50vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: 8.5vw;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  h1 {
+    color: #ce9797;
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: 7px;
+    font-size: 5em;
+    width: 30vw;
+  }
+  h1 span {
+    color: #413a3a;
+    font-weight: 600;
+  }
+  p {
+    font-weight: 400;
+    color: #ce9797;
+    letter-spacing: 2px;
+    width: 60%;
+    margin: 1.5em 0em;
+  }
+  .form {
+    width: 60%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .form input {
+    height: 3vw;
+    width: 80vw;
+    border: 1px solid #ce9797;
+    border-radius: 40px;
+  }
+  .form .form-input {
+    padding-left: 20px;
+    color: #ce9797;
+  }
+  .form .button {
+    background: #f8bfbf;
+    background: linear-gradient(135deg, #f8bfbf 0%, #ee8c8c 100%);
+    width: 16vw;
+    height: 3vw;
+    border: #ce9797;
+    border-radius: 40px;
+    margin-left: -50px;
+    -webkit-box-shadow: 143px 134px 123px -124px #f96262;
+    box-shadow: 143px 134px 123px -124px #f96262;
+  }
+  .form .button img {
+    margin-top: 3px;
+    margin-left: 2px;
   }
 }
 /*# sourceMappingURL=style.css.map */

@@ -113,7 +113,102 @@ $grayish-red: hsl(0, 6%, 24%);
 
 /* DESKTOP*/
 @media (min-width: 900px) {
-  body {
-    background-color: $soft-red;
+  * {
+    font-family: "Josefin Sans";
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+  }
+
+  .general-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+  
+  }
+  .logo {
+    margin: 3em 10em;
+    display: block;
+    position: absolute;
+
+    img {
+      width: 100%;
+    }
+  }
+  .right {
+    background-color: silver;
+    background-image: url("/images/hero-desktop.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 50vw;
+    background-size: cover;
+  }
+    .left {
+    width: 50vw;
+    display: flex;
+    margin-left: 8.5vw;
+    flex-direction: column;
+    justify-content: center;
+  }
+  h1 {
+    color: $desaturated-red;
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: 7px;
+    font-size: 5em;
+    width: 30vw;
+
+    span {
+      color: $grayish-red;
+      font-weight: 600;
+    }
+  }
+  p {
+    font-weight: 400;
+    color: $desaturated-red;
+    letter-spacing: 2px;
+    width: 60%;
+    margin: 1.5em 0em;
+  }
+  .form {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    input {
+      height: 3vw;
+      width: 80vw;
+      border: 1px solid $desaturated-red;
+      border-radius: 40px;
+    }
+    .form-input {
+        padding-left: 20px;
+        color: $desaturated-red;
+    }
+
+    .button {
+      background: rgb(248, 191, 191);
+      background: linear-gradient(
+        135deg,
+        rgba(248, 191, 191, 1) 0%,
+        rgba(238, 140, 140, 1) 100%
+      );
+      width: 16vw;
+      height: 3vw;
+      border: $desaturated-red;
+      border-radius: 40px;
+      margin-left: -50px;
+      -webkit-box-shadow: 143px 134px 123px -124px rgba(249,98,98,1);
+      -moz-box-shadow: 143px 134px 123px -124px rgba(249,98,98,1);
+      box-shadow: 143px 134px 123px -124px rgba(249,98,98,1);
+
+      img {
+        margin-top: 3px;
+        margin-left: 2px;
+      }
+    }
   }
 }
