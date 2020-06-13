@@ -186,7 +186,7 @@ $grayish-red: hsl(0, 6%, 24%);
     }
     .form-input {
         padding-left: 20px;
-        color: $desaturated-red;
+        color: $grayish-red;
     }
 
     .button {
@@ -209,6 +209,14 @@ $grayish-red: hsl(0, 6%, 24%);
         margin-top: 3px;
         margin-left: 2px;
       }
+    }
+  }
+  .comeback {
+    text-align: left;
+    margin-left: 1em;
+    p {
+      color: $soft-red;
+      letter-spacing: 1px;
     }
   }
 }

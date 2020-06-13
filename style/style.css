@@ -202,7 +202,7 @@
   }
   .form .form-input {
     padding-left: 20px;
-    color: #ce9797;
+    color: #413a3a;
   }
   .form .button {
     background: #f8bfbf;
@@ -218,6 +218,14 @@
   .form .button img {
     margin-top: 3px;
     margin-left: 2px;
+  }
+  .comeback {
+    text-align: left;
+    margin-left: 1em;
+  }
+  .comeback p {
+    color: #f96262;
+    letter-spacing: 1px;
   }
 }
 /*# sourceMappingURL=style.css.map */

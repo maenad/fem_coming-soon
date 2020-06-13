@@ -6,12 +6,13 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="/style/style.css">
+  <script src="script.js"></script>
   
   <title>Frontend Mentor | Base Apparel coming soon page</title>
 
 </head>
 <body>
-  <div class="logo"><img src="/images/logo.svg" alt=""></div>
+  <div class="logo"><a href="/"><img src="/images/logo.svg" alt="aparel logo"></a></div>
   <div class="general-container">
 
 <div class="left">
@@ -23,9 +24,10 @@
     Add your email below to stay up-to-date with announcements and our launch deals.</p>
 
 <div class="form">
-  <input type="email" placeholder="Email Address" class="form-input"> 
-  <button class="button"><img src="/images/icon-arrow.svg" alt="arrow submit"></button>
+  <input type="email" placeholder="Email Address" class="form-input" onblur="validateEmail(this);"> 
+  <button class="button" id="button"><img src="/images/icon-arrow.svg" alt="arrow submit"></button> <br>
 </div>
+<div class="comeback"><p id="comeback">&nbsp</p></div>
 </div>
 <div class="right">
 </div>
