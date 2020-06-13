@@ -155,6 +155,7 @@
     display: -ms-flexbox;
     display: flex;
     margin-left: 8.5vw;
+    margin-top: 4em;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;

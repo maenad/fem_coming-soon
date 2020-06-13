@@ -1,10 +1,9 @@
 # Frontend Mentor - Base Apparel - Coming Soon landing page
 
 [Live demo!
-](https://fem-four-cards-tawny.now.sh/)
+](https://coming-soon-fem.abigailcolina5.vercel.app/)
 
 Desktop y mobile.
 
-![Design preview for the Four card feature section coding challenge](./design/desktop-preview.jpg)
-
-![Design preview for the Four card feature section coding challenge](./design/mobile-design.jpg)
+:::image type="content" source="design/desktop-design.jpg" alt-text="desktop view":::
+:::image type="content" source="design/mobile-design.jpg" alt-text="mobile design":::
