@@ -5,5 +5,5 @@
 
 Desktop y mobile.
 
-:::image type="content" source="design/desktop-design.jpg" alt-text="desktop view":::
-:::image type="content" source="design/mobile-design.jpg" alt-text="mobile design":::
+![alt text](https://res.cloudinary.com/dz209s6jk/image/upload/v1564914815/Challenges/ae67ohzys48frbejvyce.jpg "desktop view")
+![alt text](https://res.cloudinary.com/dz209s6jk/image/upload/v1564914815/Challenges/orfu3ybrkeyzhe8q9k76.jpg "mobile view")
